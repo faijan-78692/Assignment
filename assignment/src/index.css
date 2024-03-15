@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat;
+}
+
+#main {
+  width: 1440px;
+  height: 1024px;
+  background: url("https://s3-alpha-sig.figma.com/img/bd95/2abe/44d72135d26cf838b32f4d954c221a6e?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aP~cWIiqxUyNHPgglnBa1fKce2X-vwxUVjfv495nHWvthCyo5albuiKl-0NGg8Ih6aIk5EtFhd665MLBYo9EbBtFKfeVMorfsv8qcazcPgZL3OtvkqhJKVo06U3HSdOW3nqWfeV~FaXlYF1dyDAr56-tffe9VAUlxT7AY3FH6~deTDYOR7MRedxNXikiaAPnoMxH4MAm1p~yXSdJ3-NZ5gSA0ZRnR6bttJTSA2jR3Cc4zxNc0gbDygBR3h8Gn3L3So~HKbI-012IFBJ0bGv-u9STFzLtC7AHYK-niIlyUR-NfpqUa233c5Jd1YTqs3zhWR89nV447rwSUCxPUrfcDg__");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.text {
+  width: 603px;
+  height: 285px;
+  position: relative;
+  top: 190px;
+  left: 70px;
+  
+}
+
+.heading {
+  width: 552px;
+  height: 177px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+span {
+  color: #17C2EC;
+}
+
+.content {
+  width: 603px;
+  height: 58px;
+  margin-top: 50px;
+  opacity: 0.7;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn {
+  width: 420px;
+  height: 69px;
+  position: absolute;
+  top: 525px;
+  left: 70px;
+}
+button{
+  background-color: #17C2EC;
+  border:  2px solid #17C2EC;
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.btn-1 {
+  margin-right: 20px;
+}
+.btn-2 {
+  background-color: #C4C4C41A;
+}
+
+.img{
+  width: 532.13px;
+  height: 571px;
+  background: url("https://s3-alpha-sig.figma.com/img/7fb2/05b7/772c9e7e6c73d96842b7a6e5a6a1d924?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=F4IXeVGXvIvGpGT3ILb08od9CjeybG-pzQv49R6SiBWxEK11OTS6-5WvxhWJJH24vvkEcEEHH10fUtsH1ZtHpJP9HHd~ZPa9yy2MIRKWRWAjifLTvHJZneRKU0DM10NEYB2efNc4JiCZDpD6QEMFJJDNRzMOyPglTwZ6J2MYTqIZ9B7FIsYlbenAOQBAJ0VnKxLrL5zBOPq7AqceuByk57pWN8IS-H~vQ5vzEPl3g5qNIYdToLLugejo8-UmIgEh8IxEzm5qA4O3CK92YIo1vPo6g8gentBAxviGnldgX36hWD4JDXfBXhSuURH1Iy74bS0OkE7nK1a1QEK~17Szyg__");
+  background-size: cover;
+  position: absolute;
+  top: 120px;
+  left: 797px;
+  background-color: #17C2EC;
+  border-radius: 43.192134857177734px;  
+}
+
+.form {
+  width: 1299px;
+  height: 160px;
+  position: absolute;
+  top: 774px;
+  left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(196,196,196, 0.1);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  box-shadow: 0px -10px rgba(196,196,196,0.05);
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.calender , .type ,.location  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h3 {
+  opacity: .5;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.box-2{
+  width: 1440px;
+  height: 391px;
+  background: url("https://s3-alpha-sig.figma.com/img/bd95/2abe/44d72135d26cf838b32f4d954c221a6e?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aP~cWIiqxUyNHPgglnBa1fKce2X-vwxUVjfv495nHWvthCyo5albuiKl-0NGg8Ih6aIk5EtFhd665MLBYo9EbBtFKfeVMorfsv8qcazcPgZL3OtvkqhJKVo06U3HSdOW3nqWfeV~FaXlYF1dyDAr56-tffe9VAUlxT7AY3FH6~deTDYOR7MRedxNXikiaAPnoMxH4MAm1p~yXSdJ3-NZ5gSA0ZRnR6bttJTSA2jR3Cc4zxNc0gbDygBR3h8Gn3L3So~HKbI-012IFBJ0bGv-u9STFzLtC7AHYK-niIlyUR-NfpqUa233c5Jd1YTqs3zhWR89nV447rwSUCxPUrfcDg__");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.data-2 {
+  width: 1299px;
+  height: 265px;
+  position:absolute;
+  top: 1087px;
+  left: 71px;
+  border-radius: 20px;  
+  background: rgba(196, 196, 196, 0.1);
+}
+
+.paragraph {
+  width: 1299px;
+  height: 101px;
+  position: ;
+  top: 1086px;
+  left: 71px;
+  background-color: rgba(196, 196, 196, 0.05);
+  border-radius: 20px 20px 0 0;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 104px;
+
+}
+
+.paragraph p {
+  width: 560px;
+  height: 29px;
+  top: 1122px;
+  left: 164px;
+  
+}
+
+.input-box{
+  height: 69px;
+  border-radius: 20px; 
+  display: inline-flex;
+  margin-top: 40px;
+  gap: 20px;
+  padding-left: 100px;
+
+}
+
+input {
+  width: 450px;
+  height: 69px;
+  border: 3px solid rgba(196, 196, 196, 0.15);
+  border-radius: 20px;
+  background: rgba(11, 21, 60, 1);
+  color: #ffffff;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input-1{
+  border-color: #17C2EC;
+}
+
+.btn-4{
+  margin-left: 40px;
+}
+
+@media (max-width: 375px) {
+
+  .text {
+      width: 296px;
+      height: 248px;
+      top: 112px;
+      left: 35px;
+      border-radius: 20px;  
+  }
+  .heading {
+      font-size: 24px;
+      width: 276px;
+      height: 158px;
+      top: 112px;
+      left: 35px;
+  }
+
+  .content {
+      font-size: 14px;
+      width: 271px;
+      height: 51px;
+  }
+
+  .btn {
+      width: 296px;
+      height: 50px;
+      margin-top: 120px;
+      top: 310px;
+      left: 35px;
+      border-radius: 20px; 
+
+  }
+
+  .img{
+      width: 256px;
+      height: 274.7px;
+      top: 550px;
+      left: 50px;
+  
+  }
+
+  .form {
+      width: 250px;
+      height: 200px;
+      top: 903px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  .data{
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+  }
+
+  .calender, .location, .type{
+      width: 203.25px;
+      height: 34px;
+      top: 920px;
+  
+  }
+  .address, .date {
+      width: 147px;
+      height: 34px;
+  }
+
+  .btn-3 {
+      top: 1074px;
+      width: 110px;
+      height: 50px;
+  
+  }
+
+  button {
+      font-size: 14px; 
+  }
+
+
+  .box-2 {
+      width: 375px;
+      height: 496px;
+  }
+  .data-2{
+      width: 305px;
+      height: 40px;
+      top: 1187px;
+      left: 35px;
+  }
+
+  h3, p {
+      font-size: 14px;
+  }
+  .paragraph{
+      width: 305px;
+      height: 40px;
+      top: 1187px;
+      left: 35px;
+
+  }
+
+  .input-box {
+      font-size: 14px;
+      width: 305px;
+      height: 40px;
+      top: 1187px;
+      display: flex;
+      flex-direction: column;
+  }
+
+
+
+  .btn-4{
+      width: 110px;
+      height: 50px;
+      top: 1394px;
+  }
+}
